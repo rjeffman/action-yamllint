@@ -12,8 +12,6 @@ if [[ -n "$INPUT_CONFIG_DATA" ]]; then
     options+=(-d "$INPUT_CONFIG_DATA")
 fi
 
-options+=(-f "$INPUT_FORMAT")
-
 if [[ "$INPUT_STRICT" == "true" ]]; then
     options+=(-s)
 fi
